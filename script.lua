@@ -1187,7 +1187,7 @@ run(function()
     })
     AutoReExecuteToggle:OnChanged(function()
         if Options.AutoReExecute.Value then 
-            queue_on_teleport([[loadstring(game:HttpGet("http://127.0.0.1:9080/script",true))()]]) 
+            queue_on_teleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/testaccount11262/script/refs/heads/main/script.lua",true))()]]) 
         else 
             queue_on_teleport([[]])
         end
