@@ -10,9 +10,9 @@ getgenv().consoleinput = rconsoleinput
 getgenv().consoledestroy = rconsoledestroy
 getgenv().request = function(options)
     if options.Headers then
-        options.Headers["User-Agent"] = "Synapse Z"
+        options.Headers["User-Agent"] = "Synapse N"
     else
-        options.Headers = {["User-Agent"] = "Synapse Z"}
+        options.Headers = {["User-Agent"] = "Synapse N"}
     end
     local response = oldr(options)
     return response
